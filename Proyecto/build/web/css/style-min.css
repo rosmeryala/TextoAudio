@@ -1,0 +1,175 @@
+.ingreso{
+	top: 3%;
+	left: 10%;
+	width: 80%;
+	height: 20%;
+	z-index: 1; 
+	position: absolute;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.btn-default{
+	background-color: transparent;
+  color: black;
+	border-color: black;
+}
+.btn-default:hover{
+	background-color: transparent;
+	color: black;
+	border-color: black;
+	text-decoration: none;
+}
+
+.boton{
+  bottom: 40%;
+  left: 45%;
+  position: absolute;
+}
+.botonc{
+  bottom: 40%;
+  left: 40%;
+  position: relative;
+  border-color: white;
+  color: white;
+}
+.botonc:hover{
+  top:  10%;
+  left: 40%;
+  position: relative;
+  border-color: white;
+  color: white; 
+}
+/**
+.form-control{
+	height: 22%;
+	background-color: transparent;
+	border-color: black;
+	font-style: ;
+	font-weight:bold;
+	font-size: 80%;
+	color: black;
+}**/
+
+.navbar{
+  background-color: #039be5;
+  color: white;
+}
+.navbar-brand{
+  color: black;
+  
+}
+.navbar-brand:hover{
+  color: white;
+}
+a{
+  color: black;
+}
+body {
+  padding-top: 0%;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 0%;
+    padding-bottom: 0px;
+  }
+}
+.imagen{
+  position: relative;
+  margin: 0 ;
+  width: 100%;
+}
+.texto{
+  bottom: 60%; 
+  color: black; 
+  font-family: serif;
+  position: absolute; 
+  width: 100%;
+}
+.redondo:after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 12px solid transparent;
+    border-width: 12px;
+    border-style: solid;
+    border-color: black transparent transparent;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+.redondo {
+    cursor: pointer;
+    display: block;
+    border-radius: 60%;
+    width:  5%;
+    height: 10%;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    z-index: 20;
+    margin-left: -30px;
+    border: 2px solid black;
+    opacity: 1;
+    transition: background-image 0.2s ease 0s;
+}
+.image3 {
+  position:relative;
+  background: url('universo3.jpg') no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  
+}
+@media screen and (max-width: 768px) {
+.image3{
+  position:relative;
+  background: url('universo3.jpg') no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;
+  }
+}
+.colocacion{
+  position: absolute;
+  left: 40%;
+  top: 350%;
+}
+@media screen and (max-width: 768px){
+ .colocacion{
+  position: absolute;
+  left: 40%;
+  top: 100%;
+} 
+}
+.container{
+  height: auto;
+}
+body{
+  background-color: #E4E4E4;
+    background-size: 100% ;  
+  -moz-background-size:  100%;
+}
+.form-control{
+  height: 22%;
+  background-color: transparent;
+  border-color: black;
+  font-weight:bold;
+  font-size: 80%;
+  color: black;
+}

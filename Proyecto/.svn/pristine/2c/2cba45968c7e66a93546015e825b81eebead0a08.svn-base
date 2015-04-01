@@ -1,0 +1,8 @@
+[pack]
+	buildbitmaps = false
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = true
+	logallrefupdates = true
+	bare = false
